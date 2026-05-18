@@ -15,8 +15,8 @@ services:
       - 3000:3000
 
 # Build & push (chạy trong thư mục k8s-pod):
-# docker build --platform=linux/amd64 -t YOUR_REGISTRY/k8s-pod:0.0.1 .
-# docker push YOUR_REGISTRY/k8s-pod:0.0.1
+# docker build --platform=linux/amd64 -t starciacademy/k8s-pod:latest .
+# docker push starciacademy/k8s-pod:latest
 #
 # The commented out section below is an example of how to define a PostgreSQL
 # database that your application can use. `depends_on` tells Docker Compose to
